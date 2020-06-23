@@ -1,0 +1,56 @@
+.book-details {
+    background-color: #b77f61cc;
+    padding: 1rem;
+    width: 60%;
+    min-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.book-details img.thumbnail {
+    width: 35%;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+.author {
+    font-size: 1.3rem;
+}
+
+.close-btn {
+    width: 7rem;
+    padding: 1rem;
+    position: absolute;
+    background-color: #a6653f8c;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    outline: solid black 1px;
+}
+
+.close-btn:hover {
+    background-color: black;
+}
+
+.modal-header {
+    text-transform: capitalize;
+}
+
+.green {
+    color: rgb(82, 255, 47);
+}
+
+.red {
+    color: red;
+}
+
+.sale-img {
+    height: 60px;
+    margin-inline-start: 1rem;
+}

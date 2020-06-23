@@ -1,0 +1,22 @@
+.book-preview {
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    margin: 1rem;
+    background-color: black;
+    box-shadow: 0px 0px 7px 1px white;
+}
+
+.book-preview:hover {
+    border: solid 1px white;
+    cursor: pointer;
+}
+
+.img-prev {
+    height: 200px;
+    align-self: center;
+}
+
+.title {
+    text-transform: capitalize;
+}

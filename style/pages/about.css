@@ -1,0 +1,48 @@
+.about-us {
+    background-color: #000000bd;
+    height: calc(100vh - 160px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block-end: 5px;
+    margin-block-start: 5px;
+}
+
+.about-us img {
+    height: 200px;
+    margin-bottom: 5rem;
+}
+
+.about-us h2 {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: 6rem;
+    cursor: default;
+    text-shadow: 2px 2px 4px rgb(49, 49, 49);
+}
+
+.about-us a {
+    text-decoration: underline;
+    color: rgb(117, 117, 255);
+}
+
+.bounce-enter-active {
+    animation: bounce-in 2s;
+}
+
+.bounce-leave-active {
+    animation: bounce-in 2s reverse;
+}
+
+@keyframes bounce-in {
+    0% {
+        transform: skew(0deg);
+    }
+    50% {
+        transform: skew(150deg);
+    }
+    100% {
+        transform: skew(50deg);
+    }
+}

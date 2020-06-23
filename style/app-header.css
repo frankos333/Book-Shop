@@ -1,0 +1,14 @@
+.app-header {
+    height: 80px;
+    background-color: #b77f6196;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.app-header:first-child {
+    cursor: default;
+}
+
+.app-header a:not(:first-child):hover {
+    color: black;
+}

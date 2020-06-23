@@ -1,0 +1,25 @@
+.star-container i {
+    cursor: pointer;
+    color: #e4bb24;
+}
+
+.review {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin: 5px auto;
+}
+
+.reviews {
+    background-color: #686666b0;
+}
+
+.review input {
+    text-align: center;
+}
+
+.review textarea {
+    text-align: center;
+    margin-block-end: 5px;
+    margin-block-start: 5px;
+}

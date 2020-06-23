@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: url("../imgs/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+main {
+    min-height: calc(100vh - 160px);
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+input {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+
+/* FOOTER */
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b77f6196;
+    color: white;
+    height: 80px;
+}
+
+.main-footer p {
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px black;
+}
